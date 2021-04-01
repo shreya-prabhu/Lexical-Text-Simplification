@@ -66,18 +66,6 @@ class Simplifier:
             score += self.ngram_freq_dict[(replacement + ' ' + context[2]).lower()]
         return score / 2
 
-    # def generate_word2vec_candidates(self, word, topn=15):
-    #     """ Return top words from word2vec for each word in input. """
-    #     candidates = set()
-    #     if self.check_if_replacable(word) and word in self.word2vec_model:
-    #         candidates = []
-    #         for option in self.word2vec_model.most_similar(word, topn=topn):
-    #             converted = convert(option[0].lower(), word)
-    #             if converted != word and converted != None:
-    #                 candidates.append(converted)
-
-    #     return candidates
-
     def generate_wordnet_candidates(self, word):
         """ Generate wordnet candidates for each word in input. """
         candidates = set()
@@ -144,13 +132,8 @@ class Simplifier:
             for difficultWord in difficultWords:
                 replacement_candidate = {}
 
-                # 2. Generate candidates
-                # for option in self.generate_word2vec_candidates(difficultWord):
-                #     replacement_candidate[option] = self.freq_dict.freq(option)
                 for option in self.generate_wordnet_candidates(difficultWord):
                     replacement_candidate[option] = self.freq_dict.freq(option)
-                # for option in self.generate_ppdf_candidates(difficultWord):
-                #     replacement_candidate[option] = self.freq_dict.freq(option)
 
                 # 2.1. Replacement options with frequency
                 all_options[difficultWord] = replacement_candidate
