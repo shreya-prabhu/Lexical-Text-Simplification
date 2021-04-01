@@ -10,15 +10,8 @@ from nltk.corpus import brown
 from nltk.probability import *
 from nltk.corpus import wordnet
 from nltk import sent_tokenize, word_tokenize, pos_tag
-
-import logging
-
 import text_simplification
 from conjugation import convert
-
-
-def concat(row):
-    return str(row['w1']) + ' ' + str(row['w2'])
 
 
 def generate_freq_dict():

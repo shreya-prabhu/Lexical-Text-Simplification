@@ -5,17 +5,10 @@ replace them with the most frequent candidate from wordnet """
 import pandas as pd
 import gensim
 
-from nltk.corpus import brown
+from nltk.corpus import brown,wordnet
 from nltk.probability import *
-from nltk.corpus import wordnet
 from nltk import sent_tokenize, word_tokenize, pos_tag
-
-import logging
-
-import main_ppdb
 from conjugation import convert
-
-logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
 
 
@@ -36,20 +29,13 @@ class Simplifier:
 
         self.ngram_freq_dict = dict(zip(ngrams.bigram, ngrams.freq))
         self.freq_dict = generate_freq_dict()
-
-        # Load Google's pre-trained Word2Vec model
-        # self.word2vec_model = gensim.models.KeyedVectors.load_word2vec_format('./model/GoogleNews-vectors-negative300-SLIM.bin',
-        #                                                                       binary=True)
         self.steps = open('steps.txt', 'w')
-        # self.ppdb_rules = main_ppdb.load_ppdb('./data/ppdb-2.0-xxl-lexical')
 
     def check_if_word_fits_the_context(self, context, token, replacement):
         """ Check if bigram with the replacement exists. """
         # Todo: combine in a single condition
         if len(context) == 3:
-            if (context[0] + ' ' + replacement).lower() in self.ngram_freq_dict.keys():
-                return True
-            if (replacement + ' ' + context[2]).lower() in self.ngram_freq_dict.keys():
+            if (context[0] + ' ' + replacement).lower() in self.ngram_freq_dict.keys() or (replacement + ' ' + context[2]).lower() in self.ngram_freq_dict.keys() :
                 return True
             else:
                 return False
@@ -77,9 +63,6 @@ class Simplifier:
                         candidates.add(converted)
 
         return candidates
-
-    # def generate_ppdf_candidates(self, word):
-    #     return self.ppdb_rules[word] if word in self.ppdb_rules else []
 
     def check_if_replacable(self, word):
         """ Check POS, we only want to replace nouns, adjectives and verbs. """
