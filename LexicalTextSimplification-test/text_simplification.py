@@ -4,7 +4,6 @@ replace them with the most frequent candidate from wordnet """
 
 import pandas as pd
 import gensim
-
 from nltk.corpus import brown,wordnet
 from nltk.probability import *
 from nltk import sent_tokenize, word_tokenize, pos_tag
@@ -36,10 +35,11 @@ class Simplifier:
         ngrams = ngrams.drop_duplicates(subset='bigram', keep='first')
 
         self.bigrams_brown_frequency_dictionary = dict(zip(ngrams.bigram, ngrams.freq))
+
         bigrams_distribution = pd.DataFrame(list(self.bigrams_brown_frequency_dictionary.items()), columns = ["Bigram","Frequency"])
         bigrams_distribution.to_csv('bigrams_frequency.csv')
         self.brown_frequency_dictionary = generate_brown_frequency_dictionary()
-        self.steps = open('replacements.txt', 'w')
+        self.steps = open('steps.txt', 'w')
 
     def check_if_word_fits_the_context(self, context, token, replacement):
         """ Check if bigram with the replacement exists.
@@ -119,12 +119,14 @@ class Simplifier:
                     along with their brown corpus frequency.'''
 
                 for option in self.generate_wordnet_candidates(difficultWord):
-                    replacement_candidate[option] = round(self.brown_frequency_dictionary.freq(option),2)
+                    replacement_candidate[option] = self.brown_frequency_dictionary.freq(option)
 
                 '''store all these candidates in all_options '''
 
                 all_options[difficultWord] = replacement_candidate
-            self.steps.write('all_options:' + str(all_options) + '\n')
+            all_options_list =  [(k, v) for k, v in all_options.items()]
+            self.steps.write('all_options:')
+            self.steps.write(str(all_options_list))
 
             ''' Populate best candidates dictionary if it is a bigram, and add bigram score '''
             best_candidates = {}
@@ -138,9 +140,12 @@ class Simplifier:
                             if self.check_if_word_fits_the_context(tokens[token_id - 1:token_id + 2], token, opt):
                                 
                                 best_candidates[token][opt] = self.return_bigram_score(tokens[token_id - 1:token_id + 2], token, opt)
-            self.steps.write('best_candidates:' + str(best_candidates) + '\n')
+            # self.steps.write('best_candidates:' + str(best_candidates) + '\n')
+            best_candidates_list = [(k, v) for k, v in best_candidates.items()]
+            self.steps.write("hi")
+            self.steps.write('best_candidates:')
 
-            '''Generate replacements0 - take the word with the highest bigram score'''
+            '''Generate steps0 - take the word with the highest bigram score'''
             output = []
             for token in tokens:
                 if token in best_candidates:
@@ -155,7 +160,7 @@ class Simplifier:
                     output.append(token)
             simplified0 += ' '.join(output)
 
-            '''Generate replacements1 - take the word with the highest frequency + check the context'''
+            '''Generate steps1 - take the word with the highest frequency + check the context'''
             output = []
             for token_id in range(len(tokens)):
                 token = tokens[token_id]
@@ -177,7 +182,7 @@ class Simplifier:
                     output.append(token)
             simplified1 += ' '.join(output)
 
-            '''Generate replacements2  - take the synonym with the highest frequency'''
+            '''Generate steps2  - take the synonym with the highest frequency'''
             output = []
             for token in tokens:
                 # Replace word if in is difficult and a candidate was found
