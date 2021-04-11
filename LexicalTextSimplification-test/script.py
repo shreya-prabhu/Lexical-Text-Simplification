@@ -37,14 +37,14 @@ if __name__ == '__main__':
                 s2.writelines(simplified2 + "\n")
                 # print("writing output1")
     simplifier2 = text_simplification.Simplifier()
-    with open('./evaluation/input2.sen') as f:
-        with open('./evaluation/out0-input2.lsen', 'w') as s0, open('./evaluation/out1-input2.lsen', 'w') as s1, open('./evaluation/out2-input2.lsen', 'w') as s2:
-            for input in f:
-                simplified0, simplified1, simplified2 = simplifier2.simplify(input)
-                s0.writelines(simplified0 + "\n")
-                # print("writing output1")
-                s1.writelines(simplified1 + "\n")
-                # print("writing output2")
-                s2.writelines(simplified2 + "\n")
-                # print("writing output1")
+    # with open('./evaluation/input2.sen') as f:
+    #     with open('./evaluation/out0-input2.lsen', 'w') as s0, open('./evaluation/out1-input2.lsen', 'w') as s1, open('./evaluation/out2-input2.lsen', 'w') as s2:
+    #         for input in f:
+    #             simplified0, simplified1, simplified2 = simplifier2.simplify(input)
+    #             s0.writelines(simplified0 + "\n")
+    #             # print("writing output1")
+    #             s1.writelines(simplified1 + "\n")
+    #             # print("writing output2")
+    #             s2.writelines(simplified2 + "\n")
+    #             # print("writing output1")
                 
