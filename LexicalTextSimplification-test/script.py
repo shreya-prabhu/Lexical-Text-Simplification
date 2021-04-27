@@ -26,25 +26,21 @@ def generate_freq_dict():
 if __name__ == '__main__':
 
     simplifier1 = text_simplification.Simplifier()
-    with open('./evaluation/input1.en') as f:
-        with open('./evaluation/out0-input1.lsen', 'w') as s0, open('./evaluation/out1-input1.lsen', 'w') as s1, open('./evaluation/out2-input1.lsen', 'w') as s2:
+    with open('./data/input.txt',encoding='utf-8') as f:
+        with open('./evaluation/output10.txt', 'w') as s0, open('./evaluation/output11.txt', 'w') as s1, open('./evaluation/output12.txt', 'w') as s2:
             for input in f:
                 simplified0, simplified1, simplified2 = simplifier1.simplify(input)
                 s0.writelines(simplified0 + "\n")
-                # print("writing output1")
                 s1.writelines(simplified1 + "\n")
-                # print("writing output2")
                 s2.writelines(simplified2 + "\n")
-                # print("writing output1")
+        
+    
     simplifier2 = text_simplification.Simplifier()
-    # with open('./evaluation/input2.sen') as f:
-    #     with open('./evaluation/out0-input2.lsen', 'w') as s0, open('./evaluation/out1-input2.lsen', 'w') as s1, open('./evaluation/out2-input2.lsen', 'w') as s2:
-    #         for input in f:
-    #             simplified0, simplified1, simplified2 = simplifier2.simplify(input)
-    #             s0.writelines(simplified0 + "\n")
-    #             # print("writing output1")
-    #             s1.writelines(simplified1 + "\n")
-    #             # print("writing output2")
-    #             s2.writelines(simplified2 + "\n")
-    #             # print("writing output1")
+    with open('./data/input2.txt',encoding='utf-8') as f:
+        with open('./evaluation/output21.txt', 'w') as s0, open('./evaluation/output22.txt', 'w') as s1, open('./evaluation/output23.txt', 'w') as s2:
+            for input in f:
+                simplified0, simplified1, simplified2 = simplifier2.simplify(input)
+                s0.writelines(simplified0 + "\n")
+                s1.writelines(simplified1 + "\n")
+                s2.writelines(simplified2 + "\n")
                 

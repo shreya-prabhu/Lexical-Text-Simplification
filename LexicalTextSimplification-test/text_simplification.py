@@ -1,15 +1,14 @@
 """ Simple text simplification approach based on frequency.
-Choose 30% top low frequent words in the sentence,
+Choose 50% top low frequent words in the sentence,
 replace them with the most frequent candidate from wordnet """
 
 import pandas as pd
 import gensim
 from nltk.corpus import brown,wordnet
-from nltk.probability import *
+from nltk.probability import FreqDist
 from nltk import sent_tokenize, word_tokenize, pos_tag
 from conjugation import convert
-
-
+from statistics import mode
 
 
 def generate_brown_frequency_dictionary():
@@ -36,9 +35,11 @@ class Simplifier:
 
         self.bigrams_brown_frequency_dictionary = dict(zip(ngrams.bigram, ngrams.freq))
 
-        bigrams_distribution = pd.DataFrame(list(self.bigrams_brown_frequency_dictionary.items()), columns = ["Bigram","Frequency"])
-        bigrams_distribution.to_csv('bigrams_frequency.csv')
+        # bigrams_distribution = pd.DataFrame(list(self.bigrams_brown_frequency_dictionary.items()), columns = ["Bigram","Frequency"])
+        # bigrams_distribution.to_csv('bigrams_frequency.csv')
         self.brown_frequency_dictionary = generate_brown_frequency_dictionary()
+        # self.most_common = mode(self.brown_frequency_dictionary.values())
+        # print("most",self.most_common)
         self.steps = open('steps.txt', 'w')
 
     def check_if_word_fits_the_context(self, context, token, replacement):
@@ -78,7 +79,15 @@ class Simplifier:
                     for lemma in synset.lemmas():
                         converted = convert(lemma.name().lower(), word)
                         if converted != word and converted != None:
-                            candidates.add(converted)
+                            try:
+                                w1 = wordnet.synsets(word)[0]
+                                w2 = wordnet.synsets(converted)[0]
+                                similarity = w1.wup_similarity(w2)
+                                if isinstance(similarity,float) and w1.wup_similarity(w2) >0.85 and self.brown_frequency_dictionary[converted]>10:
+                                    candidates.add(converted)
+                            except:
+                                pass
+            # print("candidate",word,candidates)
             return candidates
 
     def check_pos_tags(self, sent, token_id, replacement):
@@ -99,9 +108,9 @@ class Simplifier:
 
         sents = sent_tokenize(input)  # Split by sentences
 
-        '''Top 40 % least frequency score (rarer) words of the input corpus are taken as difficult words'''
+        '''Top 5 % least frequency score (rarer) words of the input corpus are taken as difficult words'''
 
-        top_n = int(40/100*(len(input)))
+        top_n = int(5/100*(len(input)))
         freq_top_n = sorted(self.brown_frequency_dictionary.values(), reverse=True)[top_n - 1]
         for sent in sents:
             self.steps.write(sent + '\n')
@@ -126,7 +135,7 @@ class Simplifier:
                 all_options[difficultWord] = replacement_candidate
             all_options_list =  [(k, v) for k, v in all_options.items()]
             self.steps.write('all_options:')
-            self.steps.write(str(all_options_list))
+            self.steps.write(str(all_options_list) + '\n')
 
             ''' Populate best candidates dictionary if it is a bigram, and add bigram score '''
             best_candidates = {}
@@ -142,8 +151,8 @@ class Simplifier:
                                 best_candidates[token][opt] = self.return_bigram_score(tokens[token_id - 1:token_id + 2], token, opt)
             # self.steps.write('best_candidates:' + str(best_candidates) + '\n')
             best_candidates_list = [(k, v) for k, v in best_candidates.items()]
-            self.steps.write("hi")
             self.steps.write('best_candidates:')
+            self.steps.write(str(best_candidates_list) + '\n')
 
             '''Generate steps0 - take the word with the highest bigram score'''
             output = []
@@ -199,13 +208,14 @@ class Simplifier:
 
 if __name__ == '__main__':
 
-    simplifier = Simplifier()
-    
-
-#     with open('wiki_input_2.txt') as f:
-#         with open('wiki_output_zepp.csv', 'w') as w:
-#             for input in f:
-#                 simplified0, simplified1, simplified2 = simplifier.simplify(input)
-#                 w.write(simplified0 + '\t' + simplified1 + '\t' + simplified2 + '\n')
+    simplifier1 = Simplifier()
+    with open('./data/input3.txt',encoding='utf8') as f:
+        with open('./evaluation/output10.txt', 'w') as s0, open('./evaluation/output11.txt', 'w') as s1, open('./evaluation/output12.txt', 'w') as s2:
+            for input in f:
+                simplified0, simplified1, simplified2 = simplifier1.simplify(input)
+                s0.writelines(simplified0 +'\n')
+                s1.writelines(simplified1 +'\n')
+                s2.writelines(simplified2 +'\n')
+  
 
 

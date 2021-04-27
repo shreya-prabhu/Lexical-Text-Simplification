@@ -1,19 +1,358 @@
- This task also provides a means of comparing performance of these different resources for â€¦ cosine,
-difficultWords:['This', 'task', 'also', 'provides', 'means', 'comparing', 'performance', 'these', 'different', 'resources', 'â€¦', 'cosine']
-all_options:[('This', {}), ('task', {'labor': 0.00010248089893833234, 'project': 7.836774624696002e-05, 'tax': 0.00016448614871614686, 'chore': 6.028288172843078e-06, 'undertaking': 4.305920123459342e-06, 'job': 0.00020323942982728094}), ('also', {}), ('provides', {}), ('means', {}), ('comparing', {'liken': 0.0, 'equate': 6.028288172843078e-06, 'comparison': 4.133683318520968e-05, 'compare': 2.2390784641988577e-05}), ('performance', {'operation': 9.128550661733805e-05, 'public_presentation': 0.0, 'execution': 1.1195392320994288e-05, 'carrying_out': 0.0, 'carrying_into_action': 0.0, 'functioning': 1.033420829630242e-05}), ('these', {}), ('different', {'unlike': 2.8419072814831655e-05, 'dissimilar': 2.583552074075605e-06}), ('resources', {'imaginations': 8.611840246918683e-07, 'resourcefulnesses': 0.0}), ('â€¦', {}), ('cosine', {'co': 0.0})]hibest_candidates:best v1:task -> project
-best v1:comparing -> comparison
-best v1:performance -> operation
-best v3:different -> unlike
-best v3:resources -> imaginations
-best v3:cosine -> co
-lin (Lin 1998) and Î±sd Footnote 8 (Lee 1999) distributional similarity measures â€¦ in Roget (swag2)
-difficultWords:['lin', '(', 'Lin', '1998', ')', 'Î±sd', 'Footnote', '8', '(', 'Lee', '1999', ')', 'distributional', 'similarity', 'measures', 'â€¦', 'Roget', '(', 'swag2', ')']
-all_options:[('lin', {'maya_lin': 0.0}), ('(', {}), ('Lin', {'lin': 0.0, 'maya_lin': 0.0}), ('1998', {}), (')', {}), ('Î±sd', {}), ('Footnote', {'footer': 0.0, 'footnote': 2.583552074075605e-06, 'annotate': 0.0}), ('8', {}), ('Lee', {'spike_lee': 0.0, 'bruce_lee': 0.0, 'shelton_jackson_lee': 0.0, 'tsung_dao_lee': 0.0, 'robert_edward_lee': 0.0, 'downwind': 2.583552074075605e-06, 'lee': 0.0, 'lighthorse_harry_lee': 0.0, 'henry_lee': 0.0, 'rose_louise_hovick': 0.0, 'leeward': 0.0, 'richard_henry_lee': 0.0, 'lee_yuen_kam': 0.0, 'gypsy_rose_lee': 0.0, 'robert_e._lee': 0.0, 'lee_side': 0.0}), ('1999', {}), ('distributional', {}), ('similarity', {'law_of_similarity': 0.0}), ('measures', {'criteria': 9.473024271610552e-06, 'quantify': 0.0, 'bills': 3.875328111113408e-05, 'meters': 9.473024271610552e-06, 'metres': 0.0, 'amounts': 3.789209708644221e-05, 'values': 0.00015931904456799564, 'bars': 3.358617696298287e-05, 'measuring_sticks': 0.0, 'valuates': 0.0, 'assess': 5.16710414815121e-06, 'measurements': 4.133683318520968e-05, 'evaluate': 1.1195392320994288e-05, 'standards': 6.200524977781452e-05, 'appraise': 3.4447360987674734e-06, 'touchstones': 8.611840246918683e-07, 'mensurates': 0.0, 'measuring': 2.4974336716064182e-05, 'measuring_rods': 0.0, 'steps': 9.903616283956486e-05, 'cadences': 0.0, 'beat': 5.5976961604971446e-05, 'quantities': 9.473024271610552e-06, 'measure_outs': 0.0, 'mensurations': 0.0}), ('â€¦', {}), ('Roget', {'peter_mark_roget': 0.0, 'roget': 0.0}), ('swag2', {})]hibest_candidates:best v3:lin -> maya_lin
-best v3:similarity -> law_of_similarity
-best v3:measures -> values
-and for pointwise mutual information (pMI) to measure association between â€¦
-difficultWords:['pointwise', 'mutual', 'information', '(', 'pMI', ')', 'measure', 'association', 'between', 'â€¦']
-all_options:[('pointwise', {}), ('mutual', {'reciprocal': 6.889472197534947e-06, 'common': 0.00017912627713590862}), ('information', {'selective_information': 0.0, 'info': 0.0, 'datum': 8.611840246918683e-07, 'entropy': 3.4447360987674734e-06}), ('(', {}), ('pMI', {}), (')', {}), ('measure', {'quantify': 0.0, 'touchstone': 8.611840246918683e-07, 'criterion': 8.611840246918683e-06, 'step': 0.00011195392320994289, 'bill': 6.717235392596574e-05, 'valuate': 0.0, 'assess': 5.16710414815121e-06, 'amount': 0.00014812365224700137, 'bar': 6.114406575312266e-05, 'evaluate': 1.1195392320994288e-05, 'mensurate': 0.0, 'appraise': 3.4447360987674734e-06, 'quantity': 2.8419072814831655e-05, 'metre': 8.611840246918683e-07, 'measuring': 2.4974336716064182e-05, 'measuring_rod': 0.0, 'cadence': 1.7223680493837367e-06, 'measurement': 2.7557888790139787e-05, 'measuring_stick': 0.0, 'value': 0.00017223680493837367, 'meter': 5.16710414815121e-06, 'measure_out': 0.0, 'beat': 5.5976961604971446e-05, 'mensuration': 0.0, 'standard': 8.009011429634375e-05}), ('association', {'connection': 5.856051367904705e-05, 'tie': 1.8946048543221104e-05, 'tie-up': 0.0, 'connexion': 1.7223680493837367e-06, 'affiliation': 3.4447360987674734e-06}), ('between', {}), ('â€¦', {})]hibest_candidates:best v1:measure -> beat
-best v1:association -> connection
-best v3:mutual -> common
-best v3:information -> entropy
+Aesop embodies an epigram not uncommon in human history; his fame is all the more deserved because he never deserved it.
+difficultWords:['Aesop', 'embodies', 'epigram', 'uncommon', 'human', 'history', 'fame', 'deserved', 'because', 'never', 'deserved']
+all_options:[('Aesop', {}), ('embodies', {}), ('epigram', {}), ('uncommon', {}), ('human', {}), ('history', {}), ('fame', {}), ('deserved', {}), ('because', {}), ('never', {})]
+best_candidates:[('Aesop', {}), ('embodies', {}), ('an', {}), ('epigram', {}), ('not', {}), ('uncommon', {}), ('in', {}), ('human', {}), ('history', {}), (';', {}), ('his', {}), ('fame', {}), ('is', {}), ('all', {}), ('the', {}), ('more', {}), ('deserved', {}), ('because', {}), ('he', {}), ('never', {}), ('it', {}), ('.', {})]
+The firm foundations of common sense, the shrewd shots at uncommon sense, that characterise all the Fables, belong not him but to humanity.
+difficultWords:['firm', 'foundations', 'common', 'sense', 'shrewd', 'shots', 'uncommon', 'sense', 'characterise', 'Fables', 'belong', 'humanity']
+all_options:[('firm', {}), ('foundations', {}), ('common', {'park': 4.133683318520968e-05}), ('sense', {'feel': 0.00018601574933344356}), ('shrewd', {}), ('shots', {}), ('uncommon', {}), ('characterise', {}), ('Fables', {}), ('belong', {}), ('humanity', {})]
+best_candidates:[('The', {}), ('firm', {}), ('foundations', {}), ('of', {}), ('common', {'park': 2104.5}), ('sense', {}), (',', {}), ('the', {}), ('shrewd', {}), ('shots', {}), ('at', {}), ('uncommon', {}), ('that', {}), ('characterise', {}), ('all', {}), ('Fables', {}), ('belong', {}), ('not', {}), ('him', {}), ('but', {}), ('to', {}), ('humanity', {}), ('.', {})]
+best v1:common -> park
+best v3:sense -> feel
+best v3:sense -> feel
+In the earliest human history whatever is authentic is universal: and whatever is universal is anonymous.
+difficultWords:['earliest', 'human', 'history', 'whatever', 'authentic', 'universal', 'whatever', 'universal', 'anonymous']
+all_options:[('earliest', {'earlier': 0.00012314931553093718}), ('human', {}), ('history', {}), ('whatever', {}), ('authentic', {}), ('universal', {}), ('anonymous', {})]
+best_candidates:[('In', {}), ('the', {}), ('earliest', {'earlier': 32457.0}), ('human', {}), ('history', {}), ('whatever', {}), ('is', {}), ('authentic', {}), ('universal', {}), (':', {}), ('and', {}), ('anonymous', {}), ('.', {})]
+best v1:earliest -> earlier
+In such cases there is always some central man who had first the trouble of collecting them, and afterwards the fame of creating them.
+difficultWords:['such', 'cases', 'always', 'some', 'central', 'man', 'first', 'trouble', 'collecting', 'afterwards', 'fame', 'creating']
+all_options:[('such', {}), ('cases', {'instances': 2.583552074075605e-05}), ('always', {}), ('some', {}), ('central', {}), ('man', {'gentleman': 2.152960061729671e-05}), ('first', {}), ('trouble', {}), ('collecting', {}), ('afterwards', {'afterward': 1.2917760370378025e-05}), ('fame', {}), ('creating', {'create': 4.5642753308669025e-05})]
+best_candidates:[('In', {}), ('such', {}), ('cases', {'instances': 2123.5}), ('there', {}), ('is', {}), ('always', {}), ('some', {}), ('central', {}), ('man', {'gentleman': 3152.0}), ('who', {}), ('had', {}), ('first', {}), ('the', {}), ('trouble', {}), ('of', {}), ('collecting', {}), ('them', {}), (',', {}), ('and', {}), ('afterwards', {'afterward': 1993.5}), ('fame', {}), ('creating', {'create': 3659.0}), ('.', {})]
+best v1:cases -> instances
+best v1:man -> gentleman
+best v1:afterwards -> afterward
+best v1:creating -> create
+He had the fame; and, on the whole, he earned the fame.
+difficultWords:['fame', 'whole', 'earned', 'fame']
+all_options:[('fame', {}), ('whole', {}), ('earned', {})]
+best_candidates:[('He', {}), ('had', {}), ('the', {}), ('fame', {}), (';', {}), ('and', {}), (',', {}), ('on', {}), ('whole', {}), ('he', {}), ('earned', {}), ('.', {})]
+There must have been something great and human, something of the human future and the human past, in such a man: even if he only used it to rob the past or deceive the future.
+difficultWords:['There', 'must', 'something', 'great', 'human', 'something', 'human', 'future', 'human', 'past', 'such', 'man', 'even', 'if', 'only', 'used', 'rob', 'past', 'deceive', 'future']
+all_options:[('There', {}), ('must', {}), ('something', {}), ('great', {}), ('human', {}), ('future', {}), ('past', {}), ('such', {}), ('man', {'gentleman': 2.152960061729671e-05}), ('even', {}), ('if', {}), ('only', {}), ('used', {'applied': 9.128550661733805e-05, 'employed': 4.219801720990155e-05}), ('rob', {}), ('deceive', {})]
+best_candidates:[('There', {}), ('must', {}), ('have', {}), ('been', {}), ('something', {}), ('great', {}), ('and', {}), ('human', {}), (',', {}), ('of', {}), ('the', {}), ('future', {}), ('past', {}), ('in', {}), ('such', {}), ('a', {}), ('man', {'gentleman': 9798.0}), (':', {}), ('even', {}), ('if', {}), ('he', {}), ('only', {}), ('used', {'applied': 4603.0}), ('it', {}), ('to', {}), ('rob', {}), ('or', {}), ('deceive', {}), ('.', {})]
+best v1:man -> gentleman
+best v1:used -> applied
+The story of Arthur may have been really connected with the most fighting Christianity of falling Rome or with the most heathen traditions hidden in the hills of Wales.
+difficultWords:['story', 'Arthur', 'may', 'really', 'connected', 'most', 'fighting', 'Christianity', 'falling', 'Rome', 'most', 'heathen', 'traditions', 'hidden', 'hills', 'Wales']
+all_options:[('story', {'tale': 1.8084864518529235e-05, 'narrative': 1.9807232567912972e-05}), ('Arthur', {}), ('may', {}), ('really', {}), ('connected', {}), ('most', {}), ('fighting', {}), ('Christianity', {}), ('falling', {}), ('Rome', {}), ('heathen', {}), ('traditions', {}), ('hidden', {}), ('hills', {}), ('Wales', {})]
+best_candidates:[('The', {}), ('story', {'tale': 46464.0, 'narrative': 21228.5}), ('of', {}), ('Arthur', {}), ('may', {}), ('have', {}), ('been', {}), ('really', {}), ('connected', {}), ('with', {}), ('the', {}), ('most', {}), ('fighting', {}), ('Christianity', {}), ('falling', {}), ('Rome', {}), ('or', {}), ('heathen', {}), ('traditions', {}), ('hidden', {}), ('in', {}), ('hills', {}), ('Wales', {}), ('.', {})]
+best v1:story -> tale
+But the word "Mappe" or "Malory" will always mean King Arthur; even though we find older and better origins than the Mabinogian; or write later and worse versions than the "Idylls of the King."
+difficultWords:['But', 'word', 'Mappe', 'Malory', 'always', 'mean', 'King', 'Arthur', 'even', 'though', 'find', 'older', 'better', 'origins', 'Mabinogian', 'write', 'later', 'worse', 'versions', 'Idylls', 'King']
+all_options:[('But', {}), ('word', {}), ('Mappe', {}), ('Malory', {}), ('always', {}), ('mean', {'average': 0.00010937037113586728}), ('King', {}), ('Arthur', {}), ('even', {}), ('though', {}), ('find', {}), ('older', {}), ('better', {}), ('origins', {'sources': 7.061709002473321e-05}), ('Mabinogian', {}), ('write', {}), ('later', {}), ('worse', {'bad': 0.0001197045794321697}), ('versions', {}), ('Idylls', {})]
+best_candidates:[('But', {}), ('the', {}), ('word', {}), ('``', {}), ('Mappe', {}), ("''", {}), ('or', {}), ('Malory', {}), ('will', {}), ('always', {}), ('mean', {}), ('King', {}), ('Arthur', {}), (';', {}), ('even', {}), ('though', {}), ('we', {}), ('find', {}), ('older', {}), ('and', {}), ('better', {}), ('origins', {'sources': 487.0}), ('than', {}), ('Mabinogian', {}), ('write', {}), ('later', {}), ('worse', {'bad': 35380.0}), ('versions', {}), ('Idylls', {}), ('of', {}), ('.', {})]
+best v1:origins -> sources
+best v1:worse -> bad
+best v3:mean -> average
+The nursery fairy tales may have come out of Asia with the Indo-European race, now fortunately extinct; they may have been invented by some fine French lady or gentleman like Perrault: they may possibly even be what they profess to be.
+difficultWords:['nursery', 'fairy', 'tales', 'may', 'come', 'Asia', 'Indo-European', 'race', 'now', 'fortunately', 'extinct', 'may', 'invented', 'some', 'fine', 'French', 'lady', 'gentleman', 'like', 'Perrault', 'may', 'possibly', 'even', 'what', 'profess']
+all_options:[('nursery', {}), ('fairy', {}), ('tales', {'stories': 4.9948673432128364e-05, 'narrative': 1.9807232567912972e-05}), ('may', {}), ('come', {}), ('Asia', {}), ('Indo-European', {}), ('race', {}), ('now', {}), ('fortunately', {}), ('extinct', {}), ('invented', {}), ('some', {}), ('fine', {}), ('French', {}), ('lady', {}), ('gentleman', {'man': 0.0009912228124203406}), ('like', {}), ('Perrault', {}), ('possibly', {}), ('even', {}), ('what', {}), ('profess', {})]
+best_candidates:[('The', {}), ('nursery', {}), ('fairy', {}), ('tales', {'stories': 613.5}), ('may', {}), ('have', {}), ('come', {}), ('out', {}), ('of', {}), ('Asia', {}), ('with', {}), ('the', {}), ('Indo-European', {}), ('race', {}), (',', {}), ('now', {}), ('fortunately', {}), ('extinct', {}), (';', {}), ('they', {}), ('been', {}), ('invented', {}), ('by', {}), ('some', {}), ('fine', {}), ('French', {}), ('lady', {}), ('or', {}), ('gentleman', {'man': 5007.0}), ('like', {}), ('Perrault', {}), (':', {}), ('possibly', {}), ('even', {}), ('be', {}), ('what', {}), ('profess', {}), ('to', {}), ('.', {})]
+best v1:tales -> stories
+best v1:gentleman -> man
+But we shall always call the best selection of such tales "Grimm's Tales": simply because it is the best collection.
+difficultWords:['But', 'shall', 'always', 'call', 'best', 'selection', 'such', 'tales', 'Grimm', "'s", 'Tales', 'simply', 'because', 'best', 'collection']
+all_options:[('But', {}), ('shall', {}), ('always', {}), ('call', {}), ('best', {}), ('selection', {}), ('such', {}), ('tales', {'stories': 4.9948673432128364e-05, 'narrative': 1.9807232567912972e-05}), ('Grimm', {}), ("'s", {}), ('Tales', {'stories': 4.9948673432128364e-05, 'tales': 1.63624964691455e-05, 'narrative': 1.9807232567912972e-05}), ('simply', {}), ('because', {}), ('collection', {})]
+best_candidates:[('But', {}), ('we', {}), ('shall', {}), ('always', {}), ('call', {}), ('the', {}), ('best', {}), ('selection', {}), ('of', {}), ('such', {}), ('tales', {'stories': 1203.5}), ('``', {}), ('Grimm', {}), ("'s", {}), ('Tales', {}), ("''", {}), (':', {}), ('simply', {}), ('because', {}), ('it', {}), ('is', {}), ('collection', {}), ('.', {})]
+best v1:tales -> stories
+The historical Aesop, in so far as he was historical, would seem to have been a Phrygian slave, or at least one not to be specially and symbolically adorned with the Phrygian cap of liberty.
+difficultWords:['historical', 'Aesop', 'so', 'far', 'historical', 'seem', 'Phrygian', 'slave', 'least', 'specially', 'symbolically', 'adorned', 'Phrygian', 'cap', 'liberty']
+all_options:[('historical', {}), ('Aesop', {}), ('so', {}), ('far', {}), ('seem', {'appear': 0.00010075853088894859}), ('Phrygian', {}), ('slave', {}), ('least', {}), ('specially', {}), ('symbolically', {}), ('adorned', {}), ('cap', {}), ('liberty', {'autonomy': 1.550131244445363e-05})]
+best_candidates:[('The', {}), ('historical', {}), ('Aesop', {}), (',', {}), ('in', {}), ('so', {}), ('far', {}), ('as', {}), ('he', {}), ('was', {}), ('would', {}), ('seem', {'appear': 110028.5}), ('to', {}), ('have', {}), ('been', {}), ('a', {}), ('Phrygian', {}), ('slave', {}), ('or', {}), ('at', {}), ('least', {}), ('one', {}), ('not', {}), ('be', {}), ('specially', {}), ('and', {}), ('symbolically', {}), ('adorned', {}), ('with', {}), ('the', {}), ('cap', {}), ('of', {}), ('liberty', {'autonomy': 3576.0}), ('.', {})]
+best v1:seem -> appear
+best v1:liberty -> autonomy
+He lived, if he did live, about the sixth century before Christ, in the time of that Croesus whose story we love and suspect like everything else in Herodotus.
+difficultWords:['lived', 'if', 'did', 'live', 'about', 'sixth', 'century', 'before', 'Christ', 'time', 'Croesus', 'whose', 'story', 'love', 'suspect', 'like', 'everything', 'else', 'Herodotus']
+all_options:[('lived', {'populated': 1.033420829630242e-05}), ('if', {}), ('did', {'made': 0.0009662484757042763}), ('live', {}), ('about', {}), ('sixth', {}), ('century', {}), ('before', {}), ('Christ', {}), ('time', {}), ('Croesus', {}), ('whose', {}), ('story', {'tale': 1.8084864518529235e-05, 'narrative': 1.9807232567912972e-05}), ('love', {}), ('suspect', {}), ('like', {}), ('everything', {}), ('else', {}), ('Herodotus', {})]
+best_candidates:[('He', {}), ('lived', {}), (',', {}), ('if', {}), ('he', {}), ('did', {'made': 69893.0}), ('live', {}), ('about', {}), ('the', {}), ('sixth', {}), ('century', {}), ('before', {}), ('Christ', {}), ('in', {}), ('time', {}), ('of', {}), ('that', {}), ('Croesus', {}), ('whose', {}), ('story', {}), ('we', {}), ('love', {}), ('and', {}), ('suspect', {}), ('like', {}), ('everything', {}), ('else', {}), ('Herodotus', {}), ('.', {})]
+best v1:did -> made
+best v3:lived -> populated
+best v3:story -> narrative
+There are also stories of deformity of feature and a ready ribaldry of tongue: stories which (as the celebrated Cardinal said) explain, though they do not excuse, his having been hurled over a high precipice at Delphi.
+difficultWords:['There', 'also', 'stories', 'deformity', 'feature', 'ready', 'ribaldry', 'tongue', ':', 'stories', 'celebrated', 'Cardinal', 'said', 'explain', 'though', 'do', 'excuse', 'having', 'hurled', 'over', 'high', 'precipice', 'Delphi']
+all_options:[('There', {}), ('also', {}), ('stories', {'tales': 1.63624964691455e-05, 'narrative': 1.9807232567912972e-05}), ('deformity', {}), ('feature', {'characteristic': 5.856051367904705e-05}), ('ready', {}), ('ribaldry', {}), ('tongue', {}), (':', {}), ('celebrated', {}), ('Cardinal', {}), ('said', {'told': 0.0003539466341483579, 'stated': 7.233945807411694e-05}), ('explain', {}), ('though', {}), ('do', {}), ('excuse', {}), ('having', {}), ('hurled', {'threw': 3.9614465135825944e-05}), ('over', {}), ('high', {}), ('precipice', {}), ('Delphi', {})]
+best_candidates:[('There', {}), ('are', {}), ('also', {}), ('stories', {}), ('of', {}), ('deformity', {}), ('feature', {'characteristic': 541.5}), ('and', {}), ('a', {}), ('ready', {}), ('ribaldry', {}), ('tongue', {}), (':', {}), ('which', {}), ('(', {}), ('as', {}), ('the', {}), ('celebrated', {}), ('Cardinal', {}), ('said', {}), (')', {}), ('explain', {}), (',', {}), ('though', {}), ('they', {}), ('do', {}), ('not', {}), ('excuse', {}), ('his', {}), ('having', {}), ('been', {}), ('hurled', {}), ('over', {}), ('high', {}), ('precipice', {}), ('at', {}), ('Delphi', {}), ('.', {})]
+best v1:feature -> characteristic
+best v3:stories -> narrative
+best v3:said -> told
+best v3:hurled -> threw
+It is for those who read the Fables to judge whether he was really thrown over the cliff for being ugly and offensive, or rather for being highly moral and correct.
+difficultWords:['those', 'read', 'Fables', 'judge', 'whether', 'really', 'thrown', 'over', 'cliff', 'being', 'ugly', 'offensive', 'rather', 'being', 'highly', 'moral', 'correct']
+all_options:[('those', {}), ('read', {}), ('Fables', {}), ('judge', {}), ('whether', {}), ('really', {}), ('thrown', {'threw': 3.9614465135825944e-05}), ('over', {}), ('cliff', {}), ('being', {'existence': 9.128550661733805e-05}), ('ugly', {}), ('offensive', {}), ('rather', {}), ('highly', {}), ('moral', {}), ('correct', {})]
+best_candidates:[('It', {}), ('is', {}), ('for', {}), ('those', {}), ('who', {}), ('read', {}), ('the', {}), ('Fables', {}), ('to', {}), ('judge', {}), ('whether', {}), ('he', {}), ('was', {}), ('really', {}), ('thrown', {}), ('over', {}), ('cliff', {}), ('being', {'existence': 1550.0}), ('ugly', {}), ('and', {}), ('offensive', {}), (',', {}), ('or', {}), ('rather', {}), ('highly', {}), ('moral', {}), ('correct', {}), ('.', {})]
+best v1:being -> existence
+best v1:being -> existence
+best v3:thrown -> threw
+But there is no kind of doubt that the general legend of him may justly rank him with a race too easily forgotten in our modern comparisons: the race of the great philosophic slaves.
+difficultWords:['But', 'there', 'no', 'kind', 'doubt', 'general', 'legend', 'may', 'justly', 'rank', 'race', 'too', 'easily', 'forgotten', 'our', 'modern', 'comparisons', ':', 'race', 'great', 'philosophic', 'slaves']
+all_options:[('But', {}), ('there', {}), ('no', {}), ('kind', {'sort': 0.0001386506279753908}), ('doubt', {}), ('general', {}), ('legend', {}), ('may', {}), ('justly', {}), ('rank', {}), ('race', {}), ('too', {}), ('easily', {}), ('forgotten', {'forget': 4.4781569283977154e-05}), ('our', {}), ('modern', {}), ('comparisons', {}), (':', {}), ('great', {}), ('philosophic', {'philosophical': 2.066841659260484e-05}), ('slaves', {})]
+best_candidates:[('But', {}), ('there', {}), ('is', {}), ('no', {}), ('kind', {'sort': 271233.5}), ('of', {}), ('doubt', {}), ('that', {}), ('the', {}), ('general', {}), ('legend', {}), ('him', {}), ('may', {}), ('justly', {}), ('rank', {}), ('with', {}), ('a', {}), ('race', {}), ('too', {}), ('easily', {}), ('forgotten', {'forget': 964.5}), ('in', {}), ('our', {}), ('modern', {}), ('comparisons', {}), (':', {}), ('great', {}), ('philosophic', {}), ('slaves', {}), ('.', {})]
+best v1:kind -> sort
+best v1:forgotten -> forget
+best v3:philosophic -> philosophical
+Aesop may have been a fiction like Uncle Remus: he was also, like Uncle Remus, a fact.
+difficultWords:['Aesop', 'may', 'fiction', 'like', 'Uncle', 'Remus', ':', 'also', 'like', 'Uncle', 'Remus', 'fact']
+all_options:[('Aesop', {}), ('may', {}), ('fiction', {}), ('like', {}), ('Uncle', {'uncle': 1.4640128419761762e-05}), ('Remus', {}), (':', {}), ('also', {}), ('fact', {})]
+best_candidates:[('Aesop', {}), ('may', {}), ('have', {}), ('been', {}), ('a', {}), ('fiction', {}), ('like', {}), ('Uncle', {}), ('Remus', {}), (':', {}), ('he', {}), ('was', {}), ('also', {}), (',', {}), ('fact', {}), ('.', {})]
+It is a fact that slaves in the old world could be worshipped like Aesop, or loved like Uncle Remus.
+difficultWords:['fact', 'slaves', 'old', 'world', 'could', 'worshipped', 'like', 'Aesop', 'loved', 'like', 'Uncle', 'Remus']
+all_options:[('fact', {}), ('slaves', {}), ('old', {}), ('world', {'universe': 5.425459355558771e-05}), ('could', {}), ('worshipped', {}), ('like', {}), ('Aesop', {}), ('loved', {}), ('Uncle', {'uncle': 1.4640128419761762e-05}), ('Remus', {})]
+best_candidates:[('It', {}), ('is', {}), ('a', {}), ('fact', {}), ('that', {}), ('slaves', {}), ('in', {}), ('the', {}), ('old', {}), ('world', {'universe': 488.0}), ('could', {}), ('be', {}), ('worshipped', {}), ('like', {}), ('Aesop', {}), (',', {}), ('or', {}), ('loved', {}), ('Uncle', {}), ('Remus', {}), ('.', {})]
+best v1:world -> universe
+It is odd to note that both the great slaves told their best stories about beasts and birds.
+difficultWords:['odd', 'note', 'both', 'great', 'slaves', 'told', 'best', 'stories', 'about', 'beasts', 'birds']
+all_options:[('odd', {}), ('note', {}), ('both', {}), ('great', {}), ('slaves', {}), ('told', {'stated': 7.233945807411694e-05, 'said': 0.0016732805599763002}), ('best', {}), ('stories', {'tales': 1.63624964691455e-05, 'narrative': 1.9807232567912972e-05}), ('about', {}), ('beasts', {'creatures': 1.7223680493837367e-05, 'animal': 5.856051367904705e-05}), ('birds', {})]
+best_candidates:[('It', {}), ('is', {}), ('odd', {}), ('to', {}), ('note', {}), ('that', {}), ('both', {}), ('the', {}), ('great', {}), ('slaves', {}), ('told', {'said': 9023.5}), ('their', {}), ('best', {}), ('stories', {'tales': 1555.0, 'narrative': 808.0}), ('about', {}), ('beasts', {'creatures': 6855.5, 'animal': 12174.0}), ('and', {}), ('birds', {}), ('.', {})]
+best v1:told -> said
+best v1:stories -> tales
+best v1:beasts -> animal
+But whatever be fairly due to Aesop, the human tradition called Fables is not due to him.
+difficultWords:['But', 'whatever', 'fairly', 'due', 'Aesop', 'human', 'tradition', 'called', 'Fables', 'due', 'him']
+all_options:[('But', {}), ('whatever', {}), ('fairly', {}), ('due', {}), ('Aesop', {}), ('human', {}), ('tradition', {}), ('called', {'named': 7.061709002473321e-05}), ('Fables', {}), ('him', {})]
+best_candidates:[('But', {}), ('whatever', {}), ('be', {}), ('fairly', {}), ('due', {}), ('to', {}), ('Aesop', {}), (',', {}), ('the', {}), ('human', {}), ('tradition', {}), ('called', {}), ('Fables', {}), ('is', {}), ('not', {}), ('him', {}), ('.', {})]
+best v3:called -> named
+This had gone on long before any sarcastic freedman from Phrygia had or had not been flung off a precipice; this has remained long after.
+difficultWords:['This', 'gone', 'long', 'before', 'any', 'sarcastic', 'freedman', 'Phrygia', 'been', 'flung', 'off', 'precipice', 'has', 'remained', 'long', 'after']
+all_options:[('This', {}), ('gone', {'went': 0.0004357591164940854, 'moved': 0.00015587430846922818}), ('long', {}), ('before', {}), ('any', {}), ('sarcastic', {}), ('freedman', {}), ('Phrygia', {}), ('been', {}), ('flung', {'tossed': 2.669670476544792e-05}), ('off', {}), ('precipice', {}), ('has', {}), ('remained', {'stayed': 6.458880185189013e-05}), ('after', {})]
+best_candidates:[('This', {}), ('had', {}), ('gone', {'went': 81261.0, 'moved': 16783.0}), ('on', {}), ('long', {}), ('before', {}), ('any', {}), ('sarcastic', {}), ('freedman', {}), ('from', {}), ('Phrygia', {}), ('or', {}), ('not', {}), ('been', {}), ('flung', {'tossed': 871.5}), ('off', {}), ('a', {}), ('precipice', {}), (';', {}), ('this', {}), ('has', {}), ('remained', {'stayed': 6202.0}), ('after', {}), ('.', {})]
+best v1:gone -> went
+best v1:flung -> tossed
+best v1:remained -> stayed
+It is to our advantage, indeed, to realise the distinction; because it makes Aesop more obviously effective than any other fabulist.
+difficultWords:['It', 'our', 'advantage', 'indeed', 'realise', 'distinction', 'because', 'makes', 'Aesop', 'more', 'obviously', 'effective', 'than', 'any', 'other', 'fabulist']
+all_options:[('It', {}), ('our', {}), ('advantage', {}), ('indeed', {}), ('realise', {'earn': 1.3778944395069893e-05}), ('distinction', {}), ('because', {}), ('makes', {}), ('Aesop', {}), ('more', {}), ('obviously', {}), ('effective', {}), ('than', {}), ('any', {}), ('other', {}), ('fabulist', {})]
+best_candidates:[('It', {}), ('is', {}), ('to', {}), ('our', {}), ('advantage', {}), (',', {}), ('indeed', {}), ('realise', {'earn': 130657.5}), ('the', {}), ('distinction', {}), (';', {}), ('because', {}), ('it', {}), ('makes', {}), ('Aesop', {}), ('more', {}), ('obviously', {}), ('effective', {}), ('than', {}), ('any', {}), ('other', {}), ('fabulist', {}), ('.', {})]
+best v1:realise -> earn
+Grimm's Tales, glorious as they are, were collected by two German students.
+difficultWords:['Grimm', "'s", 'Tales', 'glorious', 'collected', 'two', 'German', 'students']
+all_options:[('Grimm', {}), ("'s", {}), ('Tales', {'stories': 4.9948673432128364e-05, 'tales': 1.63624964691455e-05, 'narrative': 1.9807232567912972e-05}), ('glorious', {}), ('collected', {}), ('two', {}), ('German', {}), ('students', {'pupils': 2.066841659260484e-05})]
+best_candidates:[('Grimm', {}), ("'s", {}), ('Tales', {}), (',', {}), ('glorious', {}), ('as', {}), ('they', {}), ('are', {}), ('were', {}), ('collected', {}), ('by', {}), ('two', {}), ('German', {}), ('students', {}), ('.', {})]
+best v3:students -> pupils
+And if we find it hard to be certain of a German student, at least we know more about him than We know about a Phrygian slave.
+difficultWords:['And', 'if', 'we', 'find', 'hard', 'certain', 'German', 'student', 'least', 'we', 'know', 'more', 'about', 'him', 'than', 'We', 'know', 'about', 'Phrygian', 'slave']
+all_options:[('And', {}), ('if', {}), ('we', {}), ('find', {}), ('hard', {'difficult': 0.00013778944395069893}), ('certain', {}), ('German', {}), ('student', {'pupil': 1.63624964691455e-05}), ('least', {}), ('know', {}), ('more', {}), ('about', {}), ('him', {}), ('than', {}), ('We', {}), ('Phrygian', {}), ('slave', {})]
+best_candidates:[('And', {}), ('if', {}), ('we', {}), ('find', {}), ('it', {}), ('hard', {'difficult': 441930.0}), ('to', {}), ('be', {}), ('certain', {}), ('of', {}), ('a', {}), ('German', {}), ('student', {}), (',', {}), ('at', {}), ('least', {}), ('know', {}), ('more', {}), ('about', {}), ('him', {}), ('than', {}), ('We', {}), ('Phrygian', {}), ('slave', {}), ('.', {})]
+best v1:hard -> difficult
+best v3:student -> pupil
+The truth is, of course, that Aesop's Fables are not Aesop's fables, any more than Grimm's Fairy Tales were ever Grimm's fairy tales.
+difficultWords:['truth', 'course', 'Aesop', "'s", 'Fables', 'Aesop', "'s", 'fables', 'any', 'more', 'than', 'Grimm', "'s", 'Fairy', 'Tales', 'ever', 'Grimm', "'s", 'fairy', 'tales']
+all_options:[('truth', {}), ('course', {}), ('Aesop', {}), ("'s", {}), ('Fables', {}), ('fables', {}), ('any', {}), ('more', {}), ('than', {}), ('Grimm', {}), ('Fairy', {}), ('Tales', {'stories': 4.9948673432128364e-05, 'tales': 1.63624964691455e-05, 'narrative': 1.9807232567912972e-05}), ('ever', {}), ('fairy', {}), ('tales', {'stories': 4.9948673432128364e-05, 'narrative': 1.9807232567912972e-05})]
+best_candidates:[('The', {}), ('truth', {}), ('is', {}), (',', {}), ('of', {}), ('course', {}), ('that', {}), ('Aesop', {}), ("'s", {}), ('Fables', {}), ('are', {}), ('not', {}), ('fables', {}), ('any', {}), ('more', {}), ('than', {}), ('Grimm', {}), ('Fairy', {}), ('Tales', {'stories': 4277.5, 'tales': 6733.5}), ('were', {}), ('ever', {}), ('fairy', {}), ('tales', {}), ('.', {})]
+best v3:tales -> stories
+But the fable and the fairy tale are things utterly distinct.
+difficultWords:['But', 'fable', 'fairy', 'tale', 'things', 'utterly', 'distinct']
+all_options:[('But', {}), ('fable', {}), ('fairy', {}), ('tale', {'story': 0.00012745523565439653, 'narrative': 1.9807232567912972e-05}), ('things', {}), ('utterly', {}), ('distinct', {})]
+best_candidates:[('But', {}), ('the', {}), ('fable', {}), ('and', {}), ('fairy', {}), ('tale', {'story': 2648.0}), ('are', {}), ('things', {}), ('utterly', {}), ('distinct', {}), ('.', {})]
+best v1:tale -> story
+There are many elements of difference; but the plainest is plain enough.
+difficultWords:['There', 'many', 'elements', 'difference', 'plainest', 'plain', 'enough']
+all_options:[('There', {}), ('many', {}), ('elements', {}), ('difference', {}), ('plainest', {'apparent': 4.90874894074365e-05, 'evident': 4.822630538274463e-05}), ('plain', {}), ('enough', {})]
+best_candidates:[('There', {}), ('are', {}), ('many', {}), ('elements', {}), ('of', {}), ('difference', {}), (';', {}), ('but', {}), ('the', {}), ('plainest', {'apparent': 14640.5, 'evident': 848.5}), ('is', {}), ('plain', {}), ('enough', {}), ('.', {})]
+best v1:plainest -> apparent
+There can be no good fable with human beings in it.
+difficultWords:['There', 'can', 'no', 'good', 'fable', 'human', 'beings']
+all_options:[('There', {}), ('can', {}), ('no', {}), ('good', {}), ('fable', {}), ('human', {}), ('beings', {'being': 0.0005950781610620811})]
+best_candidates:[('There', {}), ('can', {}), ('be', {}), ('no', {}), ('good', {}), ('fable', {}), ('with', {}), ('human', {}), ('beings', {'being': 137858.0}), ('in', {}), ('it', {}), ('.', {})]
+best v1:beings -> being
+There can be no good fairy tale without them.
+difficultWords:['There', 'can', 'no', 'good', 'fairy', 'tale', 'without', 'them']
+all_options:[('There', {}), ('can', {}), ('no', {}), ('good', {}), ('fairy', {}), ('tale', {'story': 0.00012745523565439653, 'narrative': 1.9807232567912972e-05}), ('without', {}), ('them', {})]
+best_candidates:[('There', {}), ('can', {}), ('be', {}), ('no', {}), ('good', {}), ('fairy', {}), ('tale', {'story': 1562.5}), ('without', {}), ('them', {}), ('.', {})]
+best v1:tale -> story
+Aesop, or Babrius (or whatever his name was), understood that, for a fable, all the persons must be impersonal.
+difficultWords:['Aesop', 'Babrius', 'whatever', 'name', 'understood', 'fable', 'persons', 'must', 'impersonal']
+all_options:[('Aesop', {}), ('Babrius', {}), ('whatever', {}), ('name', {}), ('understood', {'understand': 0.00011798221138278596}), ('fable', {}), ('persons', {'individual': 0.00020065587775320532}), ('must', {}), ('impersonal', {})]
+best_candidates:[('Aesop', {}), (',', {}), ('or', {}), ('Babrius', {}), ('(', {}), ('whatever', {}), ('his', {}), ('name', {}), ('was', {}), (')', {}), ('understood', {'understand': 59666.5}), ('that', {}), ('for', {}), ('a', {}), ('fable', {}), ('all', {}), ('the', {}), ('persons', {'individual': 97043.0}), ('must', {}), ('be', {}), ('impersonal', {}), ('.', {})]
+best v1:understood -> understand
+best v1:persons -> individual
+They must be like abstractions in algebra, or like pieces in chess.
+difficultWords:['They', 'must', 'abstractions', 'algebra', 'pieces', 'chess']
+all_options:[('They', {}), ('must', {}), ('abstractions', {'abstract': 2.583552074075605e-05}), ('algebra', {}), ('pieces', {}), ('chess', {})]
+best_candidates:[('They', {}), ('must', {}), ('be', {}), ('like', {}), ('abstractions', {}), ('in', {}), ('algebra', {}), (',', {}), ('or', {}), ('pieces', {}), ('chess', {}), ('.', {})]
+best v3:abstractions -> abstract
+The lion must always be stronger than the wolf, just as four is always double of two.
+difficultWords:['lion', 'must', 'always', 'stronger', 'wolf', 'just', 'four', 'always', 'double']
+all_options:[('lion', {}), ('must', {}), ('always', {}), ('stronger', {'strong': 0.00016706970079022245}), ('wolf', {}), ('just', {}), ('four', {}), ('double', {})]
+best_candidates:[('The', {}), ('lion', {}), ('must', {}), ('always', {}), ('be', {}), ('stronger', {'strong': 16940.0}), ('than', {}), ('the', {}), ('wolf', {}), (',', {}), ('just', {}), ('as', {}), ('four', {}), ('is', {}), ('double', {}), ('of', {}), ('two', {}), ('.', {})]
+best v1:stronger -> strong
+The fox in a fable must move crooked, as the knight in chess must move crooked.
+difficultWords:['fox', 'fable', 'must', 'move', 'crooked', 'knight', 'chess', 'must', 'move', 'crooked']
+all_options:[('fox', {}), ('fable', {}), ('must', {}), ('move', {}), ('crooked', {}), ('knight', {}), ('chess', {})]
+best_candidates:[('The', {}), ('fox', {}), ('in', {}), ('a', {}), ('fable', {}), ('must', {}), ('move', {}), ('crooked', {}), (',', {}), ('as', {}), ('the', {}), ('knight', {}), ('chess', {}), ('.', {})]
+The sheep in a fable must march on, as the pawn in chess must march on.
+difficultWords:['sheep', 'fable', 'must', 'march', 'pawn', 'chess', 'must', 'march']
+all_options:[('sheep', {}), ('fable', {}), ('must', {}), ('march', {}), ('pawn', {}), ('chess', {})]
+best_candidates:[('The', {}), ('sheep', {}), ('in', {}), ('a', {}), ('fable', {}), ('must', {}), ('march', {}), ('on', {}), (',', {}), ('as', {}), ('the', {}), ('pawn', {}), ('chess', {}), ('.', {})]
+The fable must not allow for the crooked captures of the pawn; it must not allow for what Balzac called "the revolt of a sheep" The fairy tale, on the other hand, absolutely revolves on the pivot of human personality.
+difficultWords:['fable', 'must', 'allow', 'crooked', 'captures', 'pawn', 'must', 'allow', 'Balzac', 'called', 'revolt', 'sheep', 'fairy', 'tale', 'hand', 'absolutely', 'revolves', 'pivot', 'human', 'personality']
+all_options:[('fable', {}), ('must', {}), ('allow', {}), ('crooked', {}), ('captures', {}), ('pawn', {}), ('Balzac', {}), ('called', {'named': 7.061709002473321e-05}), ('revolt', {}), ('sheep', {}), ('fairy', {}), ('tale', {'story': 0.00012745523565439653, 'narrative': 1.9807232567912972e-05}), ('hand', {}), ('absolutely', {}), ('revolves', {}), ('pivot', {}), ('human', {}), ('personality', {})]
+best_candidates:[('The', {}), ('fable', {}), ('must', {}), ('not', {}), ('allow', {}), ('for', {}), ('the', {}), ('crooked', {}), ('captures', {}), ('of', {}), ('pawn', {}), (';', {}), ('it', {}), ('what', {}), ('Balzac', {}), ('called', {}), ('``', {}), ('revolt', {}), ('a', {}), ('sheep', {}), ("''", {}), ('fairy', {}), ('tale', {}), (',', {}), ('on', {}), ('other', {}), ('hand', {}), ('absolutely', {}), ('revolves', {}), ('pivot', {}), ('human', {}), ('personality', {}), ('.', {})]
+best v3:called -> named
+best v3:tale -> story
+If no hero were there to fight the dragons, we should not even know that they were dragons.
+difficultWords:['If', 'hero', 'fight', 'dragons', 'should', 'even', 'know', 'dragons']
+all_options:[('If', {}), ('hero', {}), ('fight', {'combat': 2.3251968666680445e-05, 'battle': 6.717235392596574e-05, 'engagement': 1.8946048543221104e-05}), ('dragons', {}), ('should', {}), ('even', {}), ('know', {})]
+best_candidates:[('If', {}), ('no', {}), ('hero', {}), ('were', {}), ('there', {}), ('to', {}), ('fight', {'combat': 49348.0, 'battle': 20902.5, 'engagement': 994.5}), ('the', {}), ('dragons', {}), (',', {}), ('we', {}), ('should', {}), ('not', {}), ('even', {}), ('know', {}), ('that', {}), ('they', {}), ('.', {})]
+best v1:fight -> combat
+If no adventurer were cast on the undiscovered island—it would remain undiscovered.
+difficultWords:['If', 'adventurer', 'cast', 'undiscovered', 'island—it', 'remain', 'undiscovered']
+all_options:[('If', {}), ('adventurer', {}), ('cast', {}), ('undiscovered', {}), ('island—it', {}), ('remain', {})]
+best_candidates:[('If', {}), ('no', {}), ('adventurer', {}), ('were', {}), ('cast', {}), ('on', {}), ('the', {}), ('undiscovered', {}), ('island—it', {}), ('would', {}), ('remain', {}), ('.', {})]
+If the miller's third son does not find the enchanted garden where the seven princesses stand white and frozen—why, then, they will remain white and frozen and enchanted.
+difficultWords:['If', 'miller', "'s", 'third', 'son', 'does', 'find', 'enchanted', 'garden', 'where', 'seven', 'princesses', 'stand', 'white', 'frozen—why', 'then', 'remain', 'white', 'frozen', 'enchanted']
+all_options:[('If', {}), ('miller', {}), ("'s", {}), ('third', {'one-third': 1.2056576345686157e-05}), ('son', {}), ('does', {}), ('find', {}), ('enchanted', {}), ('garden', {}), ('where', {}), ('seven', {}), ('princesses', {}), ('stand', {}), ('white', {}), ('frozen—why', {}), ('then', {}), ('remain', {}), ('frozen', {})]
+best_candidates:[('If', {}), ('the', {}), ('miller', {}), ("'s", {}), ('third', {}), ('son', {}), ('does', {}), ('not', {}), ('find', {}), ('enchanted', {}), ('garden', {}), ('where', {}), ('seven', {}), ('princesses', {}), ('stand', {}), ('white', {}), ('and', {}), ('frozen—why', {}), (',', {}), ('then', {}), ('they', {}), ('will', {}), ('remain', {}), ('frozen', {}), ('.', {})]
+best v3:third -> one-third
+If there is no personal prince to find the Sleeping Beauty she will simply sleep.
+difficultWords:['If', 'personal', 'prince', 'find', 'Sleeping', 'Beauty', 'simply', 'sleep']
+all_options:[('If', {}), ('personal', {}), ('prince', {}), ('find', {}), ('Sleeping', {'sleep': 5.425459355558771e-05, 'sleeping': 3.186380891359913e-05}), ('Beauty', {'beauty': 5.769932965435518e-05}), ('simply', {}), ('sleep', {})]
+best_candidates:[('If', {}), ('there', {}), ('is', {}), ('no', {}), ('personal', {}), ('prince', {}), ('to', {}), ('find', {}), ('the', {}), ('Sleeping', {'sleep': 7352.0, 'sleeping': 4575.0}), ('Beauty', {}), ('she', {}), ('will', {}), ('simply', {}), ('sleep', {}), ('.', {})]
+Fables repose upon quite the opposite idea; that everything is itself, and will in any case speak for itself.
+difficultWords:['Fables', 'repose', 'upon', 'quite', 'opposite', 'idea', 'everything', 'itself', 'case', 'speak', 'itself']
+all_options:[('Fables', {}), ('repose', {}), ('upon', {}), ('quite', {}), ('opposite', {}), ('idea', {'thought': 0.0004435097727163122}), ('everything', {}), ('itself', {}), ('case', {'instance': 7.061709002473321e-05}), ('speak', {})]
+best_candidates:[('Fables', {}), ('repose', {}), ('upon', {}), ('quite', {}), ('the', {}), ('opposite', {}), ('idea', {}), (';', {}), ('that', {}), ('everything', {}), ('is', {}), ('itself', {}), (',', {}), ('and', {}), ('will', {}), ('in', {}), ('any', {}), ('case', {'instance': 1272.5}), ('speak', {}), ('for', {}), ('.', {})]
+best v1:case -> instance
+best v3:idea -> thought
+The wolf will be always wolfish; the fox will be always foxy.
+difficultWords:['wolf', 'always', 'wolfish', 'fox', 'always', 'foxy']
+all_options:[('wolf', {}), ('always', {}), ('wolfish', {}), ('fox', {}), ('foxy', {})]
+best_candidates:[('The', {}), ('wolf', {}), ('will', {}), ('be', {}), ('always', {}), ('wolfish', {}), (';', {}), ('the', {}), ('fox', {}), ('foxy', {}), ('.', {})]
+Something of the same sort may have been meant by the animal worship, in which Egyptian and Indian and many other great peoples have combined.
+difficultWords:['Something', 'same', 'sort', 'meant', 'animal', 'worship', 'Egyptian', 'Indian', 'many', 'great', 'peoples', 'combined']
+all_options:[('Something', {}), ('same', {}), ('sort', {'kind': 0.00026696704765447917}), ('meant', {}), ('animal', {'creature': 1.2917760370378025e-05}), ('worship', {}), ('Egyptian', {}), ('Indian', {}), ('many', {}), ('great', {}), ('peoples', {'people': 0.0006984202440251052}), ('combined', {})]
+best_candidates:[('Something', {}), ('of', {}), ('the', {}), ('same', {}), ('sort', {'kind': 18268.0}), ('may', {}), ('have', {}), ('been', {}), ('meant', {}), ('by', {}), ('animal', {'creature': 15790.5}), ('worship', {}), (',', {}), ('in', {}), ('which', {}), ('Egyptian', {}), ('and', {}), ('Indian', {}), ('many', {}), ('other', {}), ('great', {}), ('peoples', {'people': 211964.5}), ('combined', {}), ('.', {})]
+best v1:sort -> kind
+best v1:animal -> creature
+best v1:peoples -> people
+Men do not, I think, love beetles or cats or crocodiles with a wholly personal love; they salute them as expressions of that abstract and anonymous energy in nature which to any one is awful, and to an atheist must be frightful.
+difficultWords:['Men', 'think', 'love', 'beetles', 'cats', 'crocodiles', 'wholly', 'personal', 'love', 'salute', 'expressions', 'abstract', 'anonymous', 'energy', 'nature', 'awful', 'atheist', 'must', 'frightful']
+all_options:[('Men', {'manpower': 1.1195392320994288e-05}), ('think', {}), ('love', {}), ('beetles', {}), ('cats', {}), ('crocodiles', {}), ('wholly', {}), ('personal', {}), ('salute', {}), ('expressions', {'look': 0.0003134709849878401}), ('abstract', {'abstraction': 1.1195392320994288e-05}), ('anonymous', {}), ('energy', {}), ('nature', {}), ('awful', {}), ('atheist', {}), ('must', {}), ('frightful', {'horrible': 1.2917760370378025e-05})]
+best_candidates:[('Men', {}), ('do', {}), ('not', {}), (',', {}), ('I', {}), ('think', {}), ('love', {}), ('beetles', {}), ('or', {}), ('cats', {}), ('crocodiles', {}), ('with', {}), ('a', {}), ('wholly', {}), ('personal', {}), (';', {}), ('they', {}), ('salute', {}), ('them', {}), ('as', {}), ('expressions', {'look': 69819.5}), ('of', {}), ('that', {}), ('abstract', {'abstraction': 1147.0}), ('and', {}), ('anonymous', {}), ('energy', {}), ('in', {}), ('nature', {}), ('which', {}), ('to', {}), ('any', {}), ('one', {}), ('is', {}), ('awful', {}), ('an', {}), ('atheist', {}), ('must', {}), ('be', {}), ('frightful', {'horrible': 1302.5}), ('.', {})]
+best v1:expressions -> look
+best v1:abstract -> abstraction
+best v1:frightful -> horrible
+best v2:expressions -> look
+So in all the fables that are or are not Aesop's all the animal forces drive like inanimate forces, like great rivers or growing trees.
+difficultWords:['So', 'fables', 'Aesop', "'s", 'animal', 'forces', 'drive', 'inanimate', 'forces', 'great', 'rivers', 'growing', 'trees']
+all_options:[('So', {}), ('fables', {}), ('Aesop', {}), ("'s", {}), ('animal', {'creature': 1.2917760370378025e-05}), ('forces', {}), ('drive', {'push': 3.100262488890726e-05}), ('inanimate', {}), ('great', {}), ('rivers', {}), ('growing', {'growth': 0.00013003878772847212}), ('trees', {})]
+best_candidates:[('So', {}), ('in', {}), ('all', {}), ('the', {}), ('fables', {}), ('that', {}), ('are', {}), ('or', {}), ('not', {}), ('Aesop', {}), ("'s", {}), ('animal', {'creature': 15790.5}), ('forces', {}), ('drive', {}), ('like', {}), ('inanimate', {}), (',', {}), ('great', {}), ('rivers', {}), ('growing', {'growth': 1856.0}), ('trees', {}), ('.', {})]
+best v1:animal -> creature
+best v1:growing -> growth
+best v3:drive -> push
+It is the limit and the loss of all such things that they cannot be anything but themselves: it is their tragedy that they could not lose their souls.
+difficultWords:['limit', 'loss', 'things', 'anything', 'themselves', 'tragedy', 'lose', 'souls']
+all_options:[('limit', {}), ('loss', {}), ('things', {}), ('anything', {}), ('themselves', {}), ('tragedy', {}), ('lose', {}), ('souls', {})]
+best_candidates:[('It', {}), ('is', {}), ('the', {}), ('limit', {}), ('and', {}), ('loss', {}), ('of', {}), ('all', {}), ('such', {}), ('things', {}), ('that', {}), ('they', {}), ('can', {}), ('not', {}), ('be', {}), ('anything', {}), ('but', {}), ('themselves', {}), (':', {}), ('it', {}), ('their', {}), ('tragedy', {}), ('could', {}), ('lose', {}), ('souls', {}), ('.', {})]
+This is the immortal justification of the Fable: that we could not teach the plainest truths so simply without turning men into chessmen.
+difficultWords:['This', 'immortal', 'justification', 'Fable', ':', 'we', 'could', 'teach', 'plainest', 'truths', 'so', 'simply', 'without', 'turning', 'men', 'into', 'chessmen']
+all_options:[('This', {}), ('immortal', {}), ('justification', {}), ('Fable', {}), (':', {}), ('we', {}), ('could', {}), ('teach', {}), ('plainest', {'apparent': 4.90874894074365e-05, 'evident': 4.822630538274463e-05}), ('truths', {}), ('so', {}), ('simply', {}), ('without', {}), ('turning', {}), ('men', {}), ('into', {}), ('chessmen', {})]
+best_candidates:[('This', {}), ('is', {}), ('the', {}), ('immortal', {}), ('justification', {}), ('of', {}), ('Fable', {}), (':', {}), ('that', {}), ('we', {}), ('could', {}), ('not', {}), ('teach', {}), ('plainest', {'apparent': 14053.0, 'evident': 848.5}), ('truths', {}), ('so', {}), ('simply', {}), ('without', {}), ('turning', {}), ('men', {}), ('into', {}), ('chessmen', {}), ('.', {})]
+best v1:plainest -> apparent
+We cannot talk of such simple things without using animals that do not talk at all.
+difficultWords:['We', 'can', 'talk', 'such', 'simple', 'things', 'without', 'using', 'animals', 'do', 'talk', 'all']
+all_options:[('We', {}), ('can', {}), ('talk', {'talking': 8.525721844449497e-05}), ('such', {}), ('simple', {}), ('things', {}), ('without', {}), ('using', {'practice': 8.009011429634375e-05}), ('animals', {'creatures': 1.7223680493837367e-05, 'animal': 5.856051367904705e-05}), ('do', {}), ('all', {})]
+best_candidates:[('We', {}), ('can', {}), ('not', {}), ('talk', {'talking': 25301.0}), ('of', {}), ('such', {}), ('simple', {}), ('things', {}), ('without', {}), ('using', {}), ('animals', {'creatures': 6313.0, 'animal': 4806.5}), ('that', {}), ('do', {}), ('at', {}), ('all', {}), ('.', {})]
+best v1:talk -> talking
+best v1:animals -> creatures
+best v1:talk -> talking
+best v3:using -> practice
+Suppose, for a moment, that you turn the wolf into a wolfish baron, or the fox into a foxy diplomatist.
+difficultWords:['Suppose', 'moment', 'you', 'turn', 'wolf', 'into', 'wolfish', 'baron', 'fox', 'into', 'foxy', 'diplomatist']
+all_options:[('Suppose', {'suppose': 5.942169770373892e-05}), ('moment', {}), ('you', {}), ('turn', {'bend': 1.63624964691455e-05}), ('wolf', {}), ('into', {}), ('wolfish', {}), ('baron', {}), ('fox', {}), ('foxy', {}), ('diplomatist', {})]
+best_candidates:[('Suppose', {}), (',', {}), ('for', {}), ('a', {}), ('moment', {}), ('that', {}), ('you', {}), ('turn', {'bend': 7592.5}), ('the', {}), ('wolf', {}), ('into', {}), ('wolfish', {}), ('baron', {}), ('or', {}), ('fox', {}), ('foxy', {}), ('diplomatist', {}), ('.', {})]
+best v1:turn -> bend
+You will at once remember that even barons are human, you will be unable to forget that even diplomatists are men.
+difficultWords:['You', 'will', 'once', 'remember', 'even', 'barons', 'human', 'you', 'will', 'unable', 'forget', 'even', 'diplomatists', 'men']
+all_options:[('You', {}), ('will', {}), ('once', {}), ('remember', {}), ('even', {}), ('barons', {}), ('human', {}), ('you', {}), ('unable', {}), ('forget', {}), ('diplomatists', {}), ('men', {})]
+best_candidates:[('You', {}), ('will', {}), ('at', {}), ('once', {}), ('remember', {}), ('that', {}), ('even', {}), ('barons', {}), ('are', {}), ('human', {}), (',', {}), ('you', {}), ('be', {}), ('unable', {}), ('to', {}), ('forget', {}), ('diplomatists', {}), ('men', {}), ('.', {})]
+You will always be looking for that accidental good-humour that should go with the brutality of any brutal man; for that allowance for all delicate things, including virtue, that should exist in any good diplomatist.
+difficultWords:['You', 'will', 'always', 'looking', 'accidental', 'good-humour', 'should', 'go', 'brutality', 'any', 'brutal', 'man', 'allowance', 'all', 'delicate', 'things', 'including', 'virtue', 'should', 'exist', 'any', 'good', 'diplomatist']
+all_options:[('You', {}), ('will', {}), ('always', {}), ('looking', {}), ('accidental', {}), ('good-humour', {}), ('should', {}), ('go', {}), ('brutality', {}), ('any', {}), ('brutal', {'vicious': 1.4640128419761762e-05, 'cruel': 1.2056576345686157e-05}), ('man', {'gentleman': 2.152960061729671e-05}), ('allowance', {}), ('all', {}), ('delicate', {}), ('things', {}), ('including', {'include': 9.559142674079739e-05}), ('virtue', {}), ('exist', {}), ('good', {}), ('diplomatist', {})]
+best_candidates:[('You', {}), ('will', {}), ('always', {}), ('be', {}), ('looking', {}), ('for', {}), ('that', {}), ('accidental', {}), ('good-humour', {}), ('should', {}), ('go', {}), ('with', {}), ('the', {}), ('brutality', {}), ('of', {}), ('any', {}), ('brutal', {}), ('man', {}), (';', {}), ('allowance', {}), ('all', {}), ('delicate', {}), ('things', {}), (',', {}), ('including', {}), ('virtue', {}), ('exist', {}), ('in', {}), ('good', {}), ('diplomatist', {}), ('.', {})]
+best v3:brutal -> vicious
+best v3:man -> gentleman
+best v3:including -> include
+Once put a thing on two legs instead of four and pluck it of feathers and you cannot help asking for a human being, either heroic, as in the fairy tales, or un-heroic, as in the modern novels.
+difficultWords:['Once', 'put', 'thing', 'two', 'legs', 'instead', 'four', 'pluck', 'feathers', 'you', 'can', 'help', 'asking', 'human', 'being', 'either', 'heroic', 'fairy', 'tales', 'un-heroic', 'modern', 'novels']
+all_options:[('Once', {}), ('put', {}), ('thing', {}), ('two', {}), ('legs', {}), ('instead', {}), ('four', {}), ('pluck', {}), ('feathers', {}), ('you', {}), ('can', {}), ('help', {'assist': 2.152960061729671e-05, 'assistance': 7.32006420988088e-05}), ('asking', {}), ('human', {}), ('being', {'existence': 9.128550661733805e-05}), ('either', {}), ('heroic', {'epic': 1.550131244445363e-05}), ('fairy', {}), ('tales', {'stories': 4.9948673432128364e-05, 'narrative': 1.9807232567912972e-05}), ('un-heroic', {}), ('modern', {}), ('novels', {})]
+best_candidates:[('Once', {}), ('put', {}), ('a', {}), ('thing', {}), ('on', {}), ('two', {}), ('legs', {}), ('instead', {}), ('of', {}), ('four', {}), ('and', {}), ('pluck', {}), ('it', {}), ('feathers', {}), ('you', {}), ('can', {}), ('not', {}), ('help', {'assist': 1418.0}), ('asking', {}), ('for', {}), ('human', {}), ('being', {'existence': 3301.0}), (',', {}), ('either', {}), ('heroic', {}), ('as', {}), ('in', {}), ('the', {}), ('fairy', {}), ('tales', {}), ('or', {}), ('un-heroic', {}), ('modern', {}), ('novels', {}), ('.', {})]
+best v1:help -> assist
+best v1:being -> existence
+best v3:heroic -> epic
+best v3:tales -> stories
+But by using animals in this austere and arbitrary style as they are used on the shields of heraldry or the hieroglyphics of the ancients, men have really succeeded in handing down those tremendous truths that are called truisms.
+difficultWords:['using', 'animals', 'austere', 'arbitrary', 'style', 'used', 'shields', 'heraldry', 'hieroglyphics', 'ancients', 'men', 'really', 'succeeded', 'handing', 'down', 'those', 'tremendous', 'truths', 'called', 'truisms']
+all_options:[('using', {'practice': 8.009011429634375e-05}), ('animals', {'creatures': 1.7223680493837367e-05, 'animal': 5.856051367904705e-05}), ('austere', {}), ('arbitrary', {}), ('style', {'manner': 0.00010678681906179167, 'fashion': 5.5976961604971446e-05, 'way': 0.0007681761500251466, 'mode': 1.8084864518529235e-05}), ('used', {'applied': 9.128550661733805e-05, 'employed': 4.219801720990155e-05}), ('shields', {}), ('heraldry', {}), ('hieroglyphics', {}), ('ancients', {}), ('men', {}), ('really', {}), ('succeeded', {}), ('handing', {}), ('down', {}), ('those', {}), ('tremendous', {'enormous': 3.186380891359913e-05}), ('truths', {}), ('called', {'named': 7.061709002473321e-05}), ('truisms', {})]
+best_candidates:[('But', {}), ('by', {}), ('using', {'practice': 785.0}), ('animals', {'creatures': 4578.5, 'animal': 5975.0}), ('in', {}), ('this', {}), ('austere', {}), ('and', {}), ('arbitrary', {}), ('style', {'manner': 13146.5, 'fashion': 1927.0, 'way': 39476.5, 'mode': 1101.5}), ('as', {}), ('they', {}), ('are', {}), ('used', {'applied': 17215.5, 'employed': 14777.5}), ('on', {}), ('the', {}), ('shields', {}), ('of', {}), ('heraldry', {}), ('or', {}), ('hieroglyphics', {}), ('ancients', {}), (',', {}), ('men', {}), ('have', {}), ('really', {}), ('succeeded', {}), ('handing', {}), ('down', {}), ('those', {}), ('tremendous', {}), ('truths', {}), ('that', {}), ('called', {'named': 9480.0}), ('truisms', {}), ('.', {})]
+best v1:using -> practice
+best v1:animals -> animal
+best v1:style -> way
+best v1:used -> applied
+best v1:called -> named
+best v3:tremendous -> enormous
+If the chivalric lion be red and rampant, it is rigidly red and rampant; if the sacred ibis stands anywhere on one leg, it stands on one leg for ever.
+difficultWords:['If', 'chivalric', 'lion', 'red', 'rampant', 'rigidly', 'red', 'rampant', 'sacred', 'ibis', 'stands', 'anywhere', 'leg', 'stands', 'leg', 'ever']
+all_options:[('If', {}), ('chivalric', {}), ('lion', {}), ('red', {}), ('rampant', {}), ('rigidly', {}), ('sacred', {}), ('ibis', {}), ('stands', {}), ('anywhere', {}), ('leg', {}), ('ever', {})]
+best_candidates:[('If', {}), ('the', {}), ('chivalric', {}), ('lion', {}), ('be', {}), ('red', {}), ('and', {}), ('rampant', {}), (',', {}), ('it', {}), ('is', {}), ('rigidly', {}), (';', {}), ('if', {}), ('sacred', {}), ('ibis', {}), ('stands', {}), ('anywhere', {}), ('on', {}), ('one', {}), ('leg', {}), ('for', {}), ('ever', {}), ('.', {})]
+In this language, like a large animal alphabet, are written some of the first philosophic certainties of men.
+difficultWords:['language', 'large', 'animal', 'alphabet', 'written', 'philosophic', 'certainties', 'men']
+all_options:[('language', {}), ('large', {}), ('animal', {'creature': 1.2917760370378025e-05}), ('alphabet', {}), ('written', {'write': 9.042432259264617e-05}), ('philosophic', {'philosophical': 2.066841659260484e-05}), ('certainties', {}), ('men', {})]
+best_candidates:[('In', {}), ('this', {}), ('language', {}), (',', {}), ('like', {}), ('a', {}), ('large', {}), ('animal', {}), ('alphabet', {}), ('are', {}), ('written', {'write': 3182.0}), ('some', {}), ('of', {}), ('the', {}), ('first', {}), ('philosophic', {}), ('certainties', {}), ('men', {}), ('.', {})]
+best v1:written -> write
+best v3:animal -> creature
+best v3:philosophic -> philosophical
+As the child learns A for Ass or B for Bull or C for Cow, so man has learnt here to connect the simpler and stronger creatures with the simpler and stronger truths.
+difficultWords:['As', 'child', 'learns', 'Ass', 'B', 'Bull', 'C', 'Cow', 'learnt', 'here', 'connect', 'simpler', 'stronger', 'creatures', 'simpler', 'stronger', 'truths']
+all_options:[('As', {}), ('child', {'minor': 4.219801720990155e-05, 'kid': 4.736512135805276e-05}), ('learns', {}), ('Ass', {'behind': 0.0002101289020248159}), ('B', {}), ('Bull', {'bull': 1.1195392320994288e-05}), ('C', {}), ('Cow', {'cow': 2.4113152691372314e-05}), ('learnt', {'learn': 7.147827404942508e-05}), ('here', {}), ('connect', {}), ('simpler', {}), ('stronger', {'strong': 0.00016706970079022245}), ('creatures', {'animal': 5.856051367904705e-05}), ('truths', {})]
+best_candidates:[('As', {}), ('the', {}), ('child', {'minor': 13928.5, 'kid': 21948.0}), ('learns', {}), ('A', {}), ('for', {}), ('Ass', {'behind': 1801.0}), ('or', {}), ('B', {}), ('Bull', {'bull': 467.5}), ('C', {}), ('Cow', {}), (',', {}), ('so', {}), ('man', {}), ('has', {}), ('learnt', {'learn': 661.5}), ('here', {}), ('to', {}), ('connect', {}), ('simpler', {}), ('and', {}), ('stronger', {'strong': 41866.0}), ('creatures', {'animal': 2380.5}), ('with', {}), ('truths', {}), ('.', {})]
+best v1:child -> kid
+best v1:learnt -> learn
+best v1:stronger -> strong
+best v1:creatures -> animal
+best v1:stronger -> strong
+That a flowing stream cannot befoul its own fountain, and that any one who says it does is a tyrant and a liar; that a mouse is too weak to fight a lion, but too strong for the cords that can hold a lion; that a fox who gets most out of a flat dish may easily get least out of a deep dish; that the crow whom the gods forbid to sing, the gods nevertheless provide with cheese; that when the goat insults from a mountain-top it is not the goat that insults, but the mountain: all these are deep truths deeply graven on the rocks wherever men have passed.
+difficultWords:['That', 'flowing', 'stream', 'befoul', 'own', 'fountain', 'says', 'does', 'tyrant', 'liar', 'mouse', 'too', 'weak', 'fight', 'lion', 'too', 'strong', 'cords', 'hold', 'lion', 'fox', 'gets', 'flat', 'dish', 'easily', 'get', 'least', 'deep', 'dish', 'crow', 'whom', 'gods', 'forbid', 'sing', 'gods', 'nevertheless', 'provide', 'cheese', 'goat', 'insults', 'mountain-top', 'goat', 'insults', 'mountain', 'deep', 'truths', 'deeply', 'graven', 'rocks', 'wherever', 'men', 'passed']
+all_options:[('That', {}), ('flowing', {'flow': 5.856051367904705e-05}), ('stream', {}), ('befoul', {}), ('own', {}), ('fountain', {}), ('says', {}), ('does', {}), ('tyrant', {}), ('liar', {}), ('mouse', {}), ('too', {}), ('weak', {}), ('fight', {'combat': 2.3251968666680445e-05, 'battle': 6.717235392596574e-05, 'engagement': 1.8946048543221104e-05}), ('lion', {}), ('strong', {}), ('cords', {}), ('hold', {}), ('fox', {}), ('gets', {}), ('flat', {}), ('dish', {'bag': 3.616972903705847e-05}), ('easily', {}), ('get', {}), ('least', {}), ('deep', {}), ('crow', {}), ('whom', {}), ('gods', {}), ('forbid', {}), ('sing', {}), ('nevertheless', {}), ('provide', {}), ('cheese', {}), ('goat', {}), ('insults', {}), ('mountain-top', {}), ('mountain', {}), ('truths', {}), ('deeply', {}), ('graven', {}), ('rocks', {'stones': 1.033420829630242e-05}), ('wherever', {}), ('men', {}), ('passed', {})]
+best_candidates:[('That', {}), ('a', {}), ('flowing', {'flow': 7771.5}), ('stream', {}), ('can', {}), ('not', {}), ('befoul', {}), ('its', {}), ('own', {}), ('fountain', {}), (',', {}), ('and', {}), ('that', {}), ('any', {}), ('one', {}), ('who', {}), ('says', {}), ('it', {}), ('does', {}), ('is', {}), ('tyrant', {}), ('liar', {}), (';', {}), ('mouse', {}), ('too', {}), ('weak', {}), ('to', {}), ('fight', {'combat': 39068.5, 'battle': 18487.5, 'engagement': 994.5}), ('lion', {}), ('but', {}), ('strong', {}), ('for', {}), ('the', {}), ('cords', {}), ('hold', {}), ('fox', {}), ('gets', {}), ('most', {}), ('out', {}), ('of', {}), ('flat', {}), ('dish', {}), ('may', {}), ('easily', {}), ('get', {}), ('least', {}), ('deep', {}), ('crow', {}), ('whom', {}), ('gods', {}), ('forbid', {}), ('sing', {}), ('nevertheless', {}), ('provide', {}), ('with', {}), ('cheese', {}), ('when', {}), ('goat', {}), ('insults', {}), ('from', {}), ('mountain-top', {}), ('mountain', {}), (':', {}), ('all', {}), ('these', {}), ('are', {}), ('truths', {}), ('deeply', {}), ('graven', {}), ('on', {}), ('rocks', {'stones': 11838.0}), ('wherever', {}), ('men', {}), ('have', {}), ('passed', {}), ('.', {})]
+best v1:flowing -> flow
+best v1:fight -> combat
+best v1:rocks -> stones
+best v3:dish -> bag
+It matters nothing how old they are, or how new; they are the alphabet of humanity, which like so many forms of primitive picture-writing employs any living symbol in preference to man.
+difficultWords:['matters', 'nothing', 'how', 'old', 'how', 'alphabet', 'humanity', 'forms', 'primitive', 'picture-writing', 'employs', 'living', 'symbol', 'preference']
+all_options:[('matters', {'affairs': 5.339340953089584e-05}), ('nothing', {'null': 1.1195392320994288e-05, 'zero': 1.9807232567912972e-05}), ('how', {}), ('old', {}), ('alphabet', {}), ('humanity', {}), ('forms', {}), ('primitive', {}), ('picture-writing', {}), ('employs', {}), ('living', {}), ('symbol', {}), ('preference', {})]
+best_candidates:[('It', {}), ('matters', {}), ('nothing', {}), ('how', {}), ('old', {}), ('they', {}), ('are', {}), (',', {}), ('or', {}), ('new', {}), (';', {}), ('the', {}), ('alphabet', {}), ('of', {}), ('humanity', {}), ('which', {}), ('like', {}), ('so', {}), ('many', {}), ('forms', {}), ('primitive', {}), ('picture-writing', {}), ('employs', {}), ('any', {}), ('living', {}), ('symbol', {}), ('in', {}), ('preference', {}), ('to', {}), ('man', {}), ('.', {})]
+best v3:matters -> affairs
+best v3:nothing -> zero
+These ancient and universal tales are all of animals; as the latest discoveries in the oldest pre-historic caverns are all of animals.
+difficultWords:['These', 'ancient', 'universal', 'tales', 'animals', 'latest', 'discoveries', 'oldest', 'pre-historic', 'caverns', 'animals']
+all_options:[('These', {}), ('ancient', {}), ('universal', {}), ('tales', {'stories': 4.9948673432128364e-05, 'narrative': 1.9807232567912972e-05}), ('animals', {'creatures': 1.7223680493837367e-05, 'animal': 5.856051367904705e-05}), ('latest', {}), ('discoveries', {}), ('oldest', {}), ('pre-historic', {}), ('caverns', {})]
+best_candidates:[('These', {}), ('ancient', {}), ('and', {}), ('universal', {}), ('tales', {'stories': 17218.0}), ('are', {}), ('all', {}), ('of', {}), ('animals', {'creatures': 4135.5, 'animal': 21013.5}), (';', {}), ('as', {}), ('the', {}), ('latest', {}), ('discoveries', {}), ('in', {}), ('oldest', {}), ('pre-historic', {}), ('caverns', {}), ('.', {})]
+best v1:tales -> stories
+best v1:animals -> animal
+best v1:animals -> animal
+Man, in his simpler states, always felt that he himself was something too mysterious to be drawn.
+difficultWords:['Man', 'simpler', 'states', 'always', 'felt', 'himself', 'something', 'too', 'mysterious', 'drawn']
+all_options:[('Man', {'gentleman': 2.152960061729671e-05, 'man': 0.0009912228124203406}), ('simpler', {}), ('states', {}), ('always', {}), ('felt', {}), ('himself', {}), ('something', {}), ('too', {}), ('mysterious', {}), ('drawn', {'pulled': 6.286643380250639e-05})]
+best_candidates:[('Man', {}), (',', {}), ('in', {}), ('his', {}), ('simpler', {}), ('states', {}), ('always', {}), ('felt', {}), ('that', {}), ('he', {}), ('himself', {}), ('was', {}), ('something', {}), ('too', {}), ('mysterious', {}), ('to', {}), ('be', {}), ('drawn', {'pulled': 12556.5}), ('.', {})]
+best v1:drawn -> pulled
+But the legend he carved under these cruder symbols was everywhere the same; and whether fables began with Aesop or began with Adam, whether they were German and mediAeval as Reynard the Fox, or as French and Renaissance as La Fontaine, the upshot is everywhere essentially the same: that superiority is always insolent, because it is always accidental; that pride goes before a fall; and that there is such a thing as being too clever by half.
+difficultWords:['legend', 'carved', 'under', 'cruder', 'symbols', 'everywhere', 'same', 'whether', 'fables', 'began', 'Aesop', 'began', 'Adam', 'whether', 'German', 'mediAeval', 'Reynard', 'Fox', 'French', 'Renaissance', 'La', 'Fontaine', 'upshot', 'everywhere', 'essentially', 'same', 'superiority', 'always', 'insolent', 'because', 'always', 'accidental', 'pride', 'goes', 'fall', 'thing', 'being', 'too', 'clever', 'half']
+all_options:[('legend', {}), ('carved', {}), ('under', {}), ('cruder', {}), ('symbols', {}), ('everywhere', {}), ('same', {}), ('whether', {}), ('fables', {}), ('began', {'started': 0.00016706970079022245}), ('Aesop', {}), ('Adam', {}), ('German', {}), ('mediAeval', {'medieval': 1.4640128419761762e-05}), ('Reynard', {}), ('Fox', {}), ('French', {}), ('Renaissance', {}), ('La', {}), ('Fontaine', {}), ('upshot', {'result': 0.00020926771800012402, 'effect': 0.00018343219725936797, 'consequence': 2.583552074075605e-05}), ('essentially', {}), ('superiority', {}), ('always', {}), ('insolent', {}), ('because', {}), ('accidental', {}), ('pride', {}), ('goes', {}), ('fall', {'autumn': 1.8946048543221104e-05}), ('thing', {}), ('being', {'existence': 9.128550661733805e-05}), ('too', {}), ('clever', {}), ('half', {})]
+best_candidates:[('But', {}), ('the', {}), ('legend', {}), ('he', {}), ('carved', {}), ('under', {}), ('these', {}), ('cruder', {}), ('symbols', {}), ('was', {}), ('everywhere', {}), ('same', {}), (';', {}), ('and', {}), ('whether', {}), ('fables', {}), ('began', {'started': 39170.5}), ('with', {}), ('Aesop', {}), ('or', {}), ('Adam', {}), (',', {}), ('they', {}), ('were', {}), ('German', {}), ('mediAeval', {'medieval': 2360.0}), ('as', {}), ('Reynard', {}), ('Fox', {}), ('French', {}), ('Renaissance', {}), ('La', {}), ('Fontaine', {}), ('upshot', {'result': 311975.0, 'effect': 162308.5, 'consequence': 8957.5}), ('is', {}), ('essentially', {}), (':', {}), ('that', {}), ('superiority', {}), ('always', {}), ('insolent', {}), ('because', {}), ('it', {}), ('accidental', {}), ('pride', {}), ('goes', {}), ('before', {}), ('a', {}), ('fall', {}), ('there', {}), ('such', {}), ('thing', {}), ('being', {}), ('too', {}), ('clever', {}), ('by', {}), ('half', {}), ('.', {})]
+best v1:began -> started
+best v1:began -> started
+best v1:mediAeval -> medieval
+best v1:upshot -> result
+best v3:fall -> autumn
+best v3:being -> existence
+You will not find any other legend but this written upon the rocks by any hand of man.
+difficultWords:['You', 'find', 'legend', 'written', 'upon', 'rocks', 'hand']
+all_options:[('You', {}), ('find', {}), ('legend', {}), ('written', {'write': 9.042432259264617e-05}), ('upon', {}), ('rocks', {'stones': 1.033420829630242e-05}), ('hand', {})]
+best_candidates:[('You', {}), ('will', {}), ('not', {}), ('find', {}), ('any', {}), ('other', {}), ('legend', {}), ('but', {}), ('this', {}), ('written', {'write': 479.5}), ('upon', {}), ('the', {}), ('rocks', {'stones': 11838.0}), ('by', {}), ('hand', {}), ('of', {}), ('man', {}), ('.', {})]
+best v1:written -> write
+best v1:rocks -> stones
+There is every type and time of fable: but there is only one moral to the fable; because there is only one moral to everything.
+difficultWords:['There', 'every', 'type', 'fable', 'moral', 'fable', 'because', 'moral', 'everything']
+all_options:[('There', {}), ('every', {}), ('type', {}), ('fable', {}), ('moral', {}), ('because', {}), ('everything', {})]
+best_candidates:[('There', {}), ('is', {}), ('every', {}), ('type', {}), ('and', {}), ('time', {}), ('of', {}), ('fable', {}), (':', {}), ('but', {}), ('there', {}), ('only', {}), ('one', {}), ('moral', {}), ('to', {}), ('the', {}), (';', {}), ('because', {}), ('everything', {}), ('.', {})]
