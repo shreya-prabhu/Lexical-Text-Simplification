@@ -13,7 +13,6 @@ from statistics import mode
 
 def generate_brown_frequency_dictionary():
     """ Create frequency distribution of BROWN corpora. """
-
     brown_frequency_dictionary = FreqDist()
     for sentence in brown.sents():
         for word in sentence:
@@ -29,17 +28,12 @@ class Simplifier:
     def __init__(self):
         ''' The ngram frequency dictionary is annotated as
         frequency, word1...wordn, pos1...posn'''
-
         ngrams = pd.read_csv('./results/ngrams.csv')
         ngrams = ngrams.drop_duplicates(subset='bigram', keep='first')
-
         self.bigrams_brown_frequency_dictionary = dict(zip(ngrams.bigram, ngrams.freq))
-
-        # bigrams_distribution = pd.DataFrame(list(self.bigrams_brown_frequency_dictionary.items()), columns = ["Bigram","Frequency"])
-        # bigrams_distribution.to_csv('bigrams_frequency.csv')
+        bigrams_distribution = pd.DataFrame(list(self.bigrams_brown_frequency_dictionary.items()), columns = ["Bigram","Frequency"])
+        bigrams_distribution.to_csv('bigrams_frequency.csv')
         self.brown_frequency_dictionary = generate_brown_frequency_dictionary()
-        # self.most_common = mode(self.brown_frequency_dictionary.values())
-        # print("most",self.most_common)
         self.steps = open('steps.txt', 'w')
 
     def check_if_word_fits_the_context(self, context, token, replacement):
@@ -83,7 +77,7 @@ class Simplifier:
                                 w1 = wordnet.synsets(word)[0]
                                 w2 = wordnet.synsets(converted)[0]
                                 similarity = w1.wup_similarity(w2)
-                                if isinstance(similarity,float) and w1.wup_similarity(w2) >0.85 and self.brown_frequency_dictionary[converted]>10:
+                                if isinstance(similarity,float) and w1.wup_similarity(w2) >0.6 :
                                     candidates.add(converted)
                             except:
                                 pass
@@ -108,9 +102,9 @@ class Simplifier:
 
         sents = sent_tokenize(input)  # Split by sentences
 
-        '''Top 5 % least frequency score (rarer) words of the input corpus are taken as difficult words'''
+        '''Top 40 % least frequency score (rarer) words of the input corpus are taken as difficult words'''
 
-        top_n = int(5/100*(len(input)))
+        top_n = int(40/100*(len(input)))
         freq_top_n = sorted(self.brown_frequency_dictionary.values(), reverse=True)[top_n - 1]
         for sent in sents:
             self.steps.write(sent + '\n')
@@ -206,16 +200,16 @@ class Simplifier:
         return simplified0, simplified1, simplified2
 
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
 
-    simplifier1 = Simplifier()
-    with open('./data/input3.txt',encoding='utf8') as f:
-        with open('./evaluation/output10.txt', 'w') as s0, open('./evaluation/output11.txt', 'w') as s1, open('./evaluation/output12.txt', 'w') as s2:
-            for input in f:
-                simplified0, simplified1, simplified2 = simplifier1.simplify(input)
-                s0.writelines(simplified0 +'\n')
-                s1.writelines(simplified1 +'\n')
-                s2.writelines(simplified2 +'\n')
+#     simplifier1 = Simplifier()
+#     with open('./data/input3.txt',encoding='utf8') as f:
+#         with open('./evaluation/output10.txt', 'w') as s0, open('./evaluation/output11.txt', 'w') as s1, open('./evaluation/output12.txt', 'w') as s2:
+#             for input in f:
+#                 simplified0, simplified1, simplified2 = simplifier1.simplify(input)
+#                 s0.writelines(simplified0 +'\n')
+#                 s1.writelines(simplified1 +'\n')
+#                 s2.writelines(simplified2 +'\n')
   
 
 
